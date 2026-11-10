@@ -5,21 +5,26 @@ export default function ThankYouLetter() {
     <section className={styles.section}>
       <div className={`reading ${styles.inner}`}>
         <h2 className={styles.heading}>To everyone who stood with us</h2>
+        <p>Thank you to everybody who supported me through this campaign.</p>
         <p>
-          Thank you for every door you knocked, every conversation you started
-          with a neighbor, every dollar you gave and every vote you cast. This
-          campaign ran on people, and you showed up.
+          This is not the result we wanted, but I believe it has been a positive
+          experience. I am moved by the new connections and experiences this race
+          has given me, and I am elated that it was part of, and contributed to,
+          even in a small way, the outstanding results of this election. What I
+          am most proud of is that this race showed that the Township, and
+          Westfield within it, is in play for progressive candidates.
         </p>
         <p>
-          We asked for a township government built on transparency, compassion
-          and real connection to the community. More of our neighbors heard that
-          message than ever before, and the conversation in Westfield has moved
-          because of it.
+          Thank you to all of the residents who took the time to have a real
+          conversation with me on the campaign trail. Thank you to the Hamilton
+          County and Westfield Democrats for all of your support. Thank you to
+          the other candidates who helped me along the way. Finally, and most
+          importantly, thank you to my friends and family for supporting me,
+          believing in me and pushing me forward.
         </p>
-        {/* TODO: replace with Jeff's personal line */}
         <p>
-          [ADD A PERSONAL LINE: what this campaign meant to you, or a moment
-          you&apos;ll remember]
+          I look forward to staying engaged and involved, and to helping our
+          community in whatever way I can.
         </p>
         <p className={styles.signoff}>
           With gratitude,
