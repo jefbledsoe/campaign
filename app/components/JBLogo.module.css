@@ -1,0 +1,29 @@
+.mark {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  width: 52px;
+  color: var(--cream);
+}
+
+.thin,
+.base {
+  display: block;
+  background: var(--cream);
+}
+
+.thin {
+  height: 2px;
+}
+
+.base {
+  height: 6px;
+}
+
+.letters {
+  font-family: var(--font-heading);
+  font-size: 30px;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  text-align: center;
+}

@@ -1,0 +1,78 @@
+:root {
+  --navy: #1b2a4a;
+  --cream: #f6f7f4;
+  --green: #1e6b4e;
+  --green-hover: #14503a;
+  --green-light: #7fcba4;
+  --sage: #eaefea;
+  --white: #ffffff;
+  --body: #33415c;
+  --hero-body: #dce3ee;
+  --muted-on-navy: #b9c6da;
+
+  --font-heading: var(--font-prata), Georgia, serif;
+  --font-body: var(--font-inter), system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--navy);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+}
+
+a {
+  color: var(--green);
+}
+
+a:hover {
+  color: var(--green-hover);
+}
+
+a:focus-visible {
+  outline: 2px solid var(--green);
+  outline-offset: 3px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding-inline: 24px;
+}
+
+.reading {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-inline: 24px;
+}

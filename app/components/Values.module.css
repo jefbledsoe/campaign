@@ -1,0 +1,48 @@
+.section {
+  background: var(--sage);
+}
+
+.inner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-block: 80px;
+}
+
+.heading {
+  font-size: 32px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 32px;
+  border-radius: 12px;
+  background: var(--white);
+}
+
+.bar {
+  width: 40px;
+  height: 4px;
+  background: var(--green);
+}
+
+.title {
+  font-size: 24px;
+  line-height: 1.25;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--body);
+}
